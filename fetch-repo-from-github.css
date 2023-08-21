@@ -1,0 +1,125 @@
+/* Get any Repo From github Api by UserName */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #333;
+}
+.repo-container{
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 780px;
+    border-radius: 10px;
+}
+.repo-container .get-repo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.repo-container .get-repo input{
+    padding: 15px;
+    flex: 1;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.repo-container .get-repo input:focus{
+    outline: none;
+}
+.repo-container .get-repo .get-btn {
+    background-color: #F44336;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.repo-container .get-repo .get-btn:hover{
+    background-color: #c4251a;
+}
+.repo-container .show-data {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.repo-container .show-data div {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.repo-container .show-data div a,
+.repo-container .show-data div span {
+    float: right;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+}
+.repo-container .show-data div a{
+    background-color: #009688;
+    text-decoration: none;
+}
+.repo-container .show-data div span {
+    background-color: #F44336;
+    margin-right: 10px;
+    width: 120px;
+    text-align: center;
+} 
+
+
+/* Get Posts From Api */
+
+/* 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: #333;
+}
+.repo-container{
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 780px;
+    border-radius: 10px;
+}
+.repo-container .get-repo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.repo-container .get-repo .get-btn:hover{
+    background-color: #c4251a;
+}
+.repo-container .show-data {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.repo-container .show-data .content-posts {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.repo-container .show-data .content-posts span{
+    display: block;
+    margin-bottom: 10px;
+}
+.repo-container .get-repo .get-btn2 {
+    background-color: #F44336;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+} */
